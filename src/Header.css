@@ -1,0 +1,28 @@
+    /* Header.css */
+
+.header-container {
+    display: flex;
+    background-color: #00BFFF;
+   
+    justify-content: center;
+    height: 100px;
+   align-items: middle;
+   color: #575656  ;
+  }
+  .navbar-secondary{
+    background-color: #0290C0;
+    
+    
+  }
+  .navbar-secondary-title{
+    margin-top: 0;
+    justify-content: center;
+    text-align: center;
+    color: #575656  ;
+  }
+  
+  a{
+    text-decoration: none;
+    color: #575656;
+  }
+  
