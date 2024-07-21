@@ -1,0 +1,39 @@
+/* Header.css */
+
+.header-container {
+  display: flex;
+  background-color: #00BFFF;
+  justify-content: center;
+  height: 100px;
+  align-items: center; /* Use center instead of middle */
+  color: #575656;
+}
+
+.navbar-secondary {
+  background-color: #0290C0;
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  height: 50px; /* Set a height to ensure vertical centering */
+}
+
+.title {
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+}
+
+.button {
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: #0290C0;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0290C0;
+}

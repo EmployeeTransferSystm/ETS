@@ -1,0 +1,101 @@
+.employee-details-container {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.button-group {
+  margin-bottom: 20px;
+}
+
+.button-group button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form-container {
+  display: inline-block; /* This makes the container size to fit its content */
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  text-align: left;
+}
+
+.heading3 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#serviceRecord {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+#serviceRecord th,
+#serviceRecord td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+#serviceRecord th {
+  background-color: #f2f2f2;
+}
+
+.textBox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.textBox input {
+  width: 48%; /* Adjusts the input box width to fit two in one line */
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit-button,
+.reset-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.submit-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.reset-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}

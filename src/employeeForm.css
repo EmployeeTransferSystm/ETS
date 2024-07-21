@@ -1,0 +1,96 @@
+/* employeeForm.css */
+
+.employee-details-container {
+  margin: 30px auto; /* Center the container horizontally */
+  max-width: 1200px; /* Adjust the max-width as needed */
+  padding: 20px;
+}
+
+.button-group {
+  display: flex; /* Ensure buttons are on the same line */
+  flex-wrap: wrap; /* Allow buttons to wrap if container is too narrow */
+  justify-content: center; /* Center the buttons */
+  margin-bottom: 20px;
+}
+
+.button-group button {
+  margin: 10px; /* Provide spacing between buttons */
+  padding: 10px 20px;
+  background-color: #2A0F8D;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form-container {
+  max-width: 800px; /* Adjust the max-width as needed */
+  margin: 0 auto; /* Center the form container */
+}
+
+.form-group {
+  margin-bottom: 20px;
+  display: flex; /* Make label and input/select inline */
+  align-items: center; /* Vertically center items */
+}
+
+.form-group label {
+  flex: 0 0 30%; /* Allocate space for the label */
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+  flex: 1; /* Let the input/select expand to take remaining space */
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.button-group .submit-button,
+.button-group .reset-button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  background-color: #2A0F8D;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button-group .reset-button {
+  background-color: #ccc;
+  color: #000;
+}
+
+.heading3 {
+  justify-content: center;
+  text-align: center;
+  color: #061756;
+  font-size: 35px;
+}
+
+.textBox {
+  display: flex;
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+  width: 50%;
+  gap: 40px; /* Adjust the value as needed */
+  margin: auto; /* Center the entire flex container horizontally */
+}
+.branchNo, .period {
+   
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100px;
+}
+input[type=text] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}

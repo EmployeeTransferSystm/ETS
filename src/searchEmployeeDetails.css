@@ -1,0 +1,39 @@
+.outer-table {
+  margin: auto;
+  border-collapse: collapse;
+  border: 2px solid #ddd; /* Add border to the outer table */
+  width: 100%; /* Ensure the outer table spans full width */
+}
+
+.outer-table table, .outer-table td, .outer-table tr {
+  padding: 5px;
+ }
+
+.inner-table {
+  width: 100%;
+  border-collapse: collapse;
+ }
+
+.inner-table td {
+  padding: 5px;
+}
+
+.merged {
+  text-decoration: underline;
+  font-size: 18px;
+}
+
+.inputBox {
+  width: 50px;
+}
+.jobCategoryInput {
+  width: 200px; 
+  padding: 5px;
+  border: 1px solid #ddd;
+}
+
+.jobCategoryInput select {
+  width: 100%;
+  padding: 5px;
+  font-size: 14px;
+}

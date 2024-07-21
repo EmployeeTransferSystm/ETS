@@ -1,0 +1,98 @@
+
+.employee-details-container {
+    padding: 20px;
+  }
+  
+  .button-group {
+    margin-bottom: 20px;
+    text-align: center; 
+  }
+  
+  .button-group button {
+    margin: 0 10px; 
+  }
+  
+  .form-container {
+    width: 600px; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0 auto;
+    
+  }
+  
+  .heading3 {
+    margin:0;
+    text-align: center; 
+  }
+  
+  .form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .form-group label {
+    margin-right: 10px;
+  }
+  
+  .form-group input {
+    flex-grow: 1;
+    margin-right: 10px;
+    width: 200px; 
+  }
+  
+  .submit-button{
+    margin-right: 10px;
+  padding: 10px 20px;
+  background-color: #2A0F8D;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  }
+  .reset-button{
+    margin-right: 10px;
+  padding: 10px 20px;
+  background-color: #ccc;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  }
+  
+  .employee-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto; 
+  }
+  
+  .employee-table th, .employee-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .employee-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .employee-table thead th {
+    text-align: center;
+  }
+  
+  .employee-table input[type="text"] {
+    width: 150px;
+  }
+  
+  .action-buttons {
+    text-align: center; 
+    margin-top: 20px; 
+  }
+  
+  .action-buttons button {
+    margin: 0 10px; 
+  }
+  
